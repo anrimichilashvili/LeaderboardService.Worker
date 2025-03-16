@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-LeaderboardService.Worker-84539336-dc9d-4065-9d60-0245ec3c4e76</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeaderboardService.Application\LeaderboardService.Application.csproj" />
+    <ProjectReference Include="..\LeaderboardService.Domain\LeaderboardService.Domain.csproj" />
+    <ProjectReference Include="..\LeaderboardService.Infrastructure\LeaderboardService.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
