@@ -49,7 +49,7 @@ namespace LeaderboardService.Worker
 
                 foreach (var entry in topPlayers)
                 {
-                    decimal prizeAmount = entry.TotalBet * 0.1m;
+                    decimal prizeAmount = entry.TotalBet * 1.3m;
                     _logger.LogInformation("Player {PlayerId} is awarded {Prize}", entry.CreatedBy, prizeAmount);
 
                     var notification = new PrizeNotification
