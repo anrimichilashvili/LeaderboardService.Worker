@@ -16,6 +16,5 @@
   <ItemGroup>
     <ProjectReference Include="..\LeaderboardService.Application\LeaderboardService.Application.csproj" />
     <ProjectReference Include="..\LeaderboardService.Domain\LeaderboardService.Domain.csproj" />
-    <ProjectReference Include="..\LeaderboardService.Infrastructure\LeaderboardService.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

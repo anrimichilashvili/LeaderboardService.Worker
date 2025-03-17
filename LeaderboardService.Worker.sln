@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardService.Worker", "LeaderboardService.Worker\LeaderboardService.Worker.csproj", "{8F018CF2-CBBC-46E5-ABDA-23E8C0F1D54C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardService.Domain", "LeaderboardService.Domain\LeaderboardService.Domain.csproj", "{13FE6405-36F1-4FF7-A91A-B34732334823}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardService.Application", "LeaderboardService.Application\LeaderboardService.Application.csproj", "{CF315C26-D0A8-4BD5-9794-5516EC48BE40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaderboardService.Infrastructure", "LeaderboardService.Infrastructure\LeaderboardService.Infrastructure.csproj", "{45193CAA-442B-4B19-8B90-A77EF9142908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{CF315C26-D0A8-4BD5-9794-5516EC48BE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF315C26-D0A8-4BD5-9794-5516EC48BE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF315C26-D0A8-4BD5-9794-5516EC48BE40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45193CAA-442B-4B19-8B90-A77EF9142908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45193CAA-442B-4B19-8B90-A77EF9142908}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45193CAA-442B-4B19-8B90-A77EF9142908}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45193CAA-442B-4B19-8B90-A77EF9142908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
